@@ -1,0 +1,364 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "hail",
+  "evidence": {
+    "core_skills": [
+      "hail-api-and-scripting",
+      "hail-test",
+      "hail-build-and-install",
+      "hail-getting-started",
+      "hail-dev-docs",
+      "hail-troubleshooting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/hail-api-and-scripting.md",
+      "skills/.evidence/hail-test.md",
+      "skills/.evidence/hail-build-and-install.md",
+      "skills/.evidence/hail-getting-started.md",
+      "skills/.evidence/hail-dev-docs.md",
+      "skills/.evidence/hail-troubleshooting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/hail-advanced-topics/SKILL.md",
+        "skills/hail-advanced-topics/references/doc_map.md",
+        "skills/hail-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/hail-advanced-topics/SKILL.md",
+        "skills/hail-advanced-topics/references/doc_map.md",
+        "skills/hail-advanced-topics/references/source_map.md",
+        "skills/hail-api-and-scripting/SKILL.md",
+        "skills/hail-build-and-install/SKILL.md",
+        "skills/hail-dev-docs/SKILL.md",
+        "skills/hail-getting-started/SKILL.md",
+        "skills/hail-index/SKILL.md",
+        "skills/hail-inputs-and-modeling/SKILL.md",
+        "skills/hail-inputs-and-modeling/references/doc_map.md",
+        "skills/hail-inputs-and-modeling/references/source_map.md",
+        "skills/hail-parallel-hpc/SKILL.md",
+        "skills/hail-parallel-hpc/references/doc_map.md",
+        "skills/hail-parallel-hpc/references/source_map.md",
+        "skills/hail-test/SKILL.md",
+        "skills/hail-theory-and-methods/SKILL.md",
+        "skills/hail-theory-and-methods/references/doc_map.md",
+        "skills/hail-theory-and-methods/references/source_map.md",
+        "skills/hail-troubleshooting/SKILL.md"
+      ],
+      "deleted": [
+        "skills/hail-inputs-and-modeling/SKILL.md",
+        "skills/hail-inputs-and-modeling/references/doc_map.md",
+        "skills/hail-inputs-and-modeling/references/source_map.md",
+        "skills/hail-parallel-hpc/SKILL.md",
+        "skills/hail-parallel-hpc/references/doc_map.md",
+        "skills/hail-parallel-hpc/references/source_map.md",
+        "skills/hail-theory-and-methods/SKILL.md",
+        "skills/hail-theory-and-methods/references/doc_map.md",
+        "skills/hail-theory-and-methods/references/source_map.md"
+      ],
+      "modified": [
+        "skills/hail-api-and-scripting/SKILL.md",
+        "skills/hail-build-and-install/SKILL.md",
+        "skills/hail-dev-docs/SKILL.md",
+        "skills/hail-getting-started/SKILL.md",
+        "skills/hail-index/SKILL.md",
+        "skills/hail-test/SKILL.md",
+        "skills/hail-troubleshooting/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/hail-advanced-topics/SKILL.md",
+        "skills/hail-advanced-topics/references/doc_map.md",
+        "skills/hail-advanced-topics/references/source_map.md",
+        "skills/hail-api-and-scripting/SKILL.md",
+        "skills/hail-api-and-scripting/references/doc_map.md",
+        "skills/hail-api-and-scripting/references/source_map.md",
+        "skills/hail-build-and-install/SKILL.md",
+        "skills/hail-build-and-install/references/doc_map.md",
+        "skills/hail-build-and-install/references/source_map.md",
+        "skills/hail-dev-docs/SKILL.md",
+        "skills/hail-dev-docs/references/doc_map.md",
+        "skills/hail-dev-docs/references/source_map.md",
+        "skills/hail-examples-and-tutorials/SKILL.md",
+        "skills/hail-examples-and-tutorials/references/doc_map.md",
+        "skills/hail-examples-and-tutorials/references/source_map.md",
+        "skills/hail-getting-started/SKILL.md",
+        "skills/hail-getting-started/references/doc_map.md",
+        "skills/hail-getting-started/references/source_map.md",
+        "skills/hail-index/SKILL.md",
+        "skills/hail-simulation-workflows/SKILL.md",
+        "skills/hail-simulation-workflows/references/doc_map.md",
+        "skills/hail-simulation-workflows/references/source_map.md",
+        "skills/hail-test/SKILL.md",
+        "skills/hail-test/references/doc_map.md",
+        "skills/hail-test/references/source_map.md",
+        "skills/hail-troubleshooting/SKILL.md",
+        "skills/hail-troubleshooting/references/doc_map.md",
+        "skills/hail-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/hail-advanced-topics/SKILL.md",
+        "skills/hail-advanced-topics/references/doc_map.md",
+        "skills/hail-advanced-topics/references/source_map.md",
+        "skills/hail-api-and-scripting/SKILL.md",
+        "skills/hail-api-and-scripting/references/doc_map.md",
+        "skills/hail-api-and-scripting/references/source_map.md",
+        "skills/hail-build-and-install/SKILL.md",
+        "skills/hail-build-and-install/references/doc_map.md",
+        "skills/hail-build-and-install/references/source_map.md",
+        "skills/hail-dev-docs/SKILL.md",
+        "skills/hail-dev-docs/references/doc_map.md",
+        "skills/hail-dev-docs/references/source_map.md",
+        "skills/hail-examples-and-tutorials/SKILL.md",
+        "skills/hail-examples-and-tutorials/references/doc_map.md",
+        "skills/hail-examples-and-tutorials/references/source_map.md",
+        "skills/hail-getting-started/SKILL.md",
+        "skills/hail-getting-started/references/doc_map.md",
+        "skills/hail-getting-started/references/source_map.md",
+        "skills/hail-index/SKILL.md",
+        "skills/hail-simulation-workflows/SKILL.md",
+        "skills/hail-simulation-workflows/references/doc_map.md",
+        "skills/hail-simulation-workflows/references/source_map.md",
+        "skills/hail-test/SKILL.md",
+        "skills/hail-test/references/doc_map.md",
+        "skills/hail-test/references/source_map.md",
+        "skills/hail-troubleshooting/SKILL.md",
+        "skills/hail-troubleshooting/references/doc_map.md",
+        "skills/hail-troubleshooting/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "dev-docs",
+      "hail/python/hail/docs",
+      "hail/python/hailtop/batch/docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Monorepo layout; explicit roots avoid noisy auto-discovery of non-core lib/module folders.",
+      "Primary end-user docs are under hail/python/hail/docs and hail/python/hailtop/batch/docs; dev-docs adds operator/developer workflows.",
+      "Tutorial coverage combines notebook tutorials and Batch cookbook docs."
+    ],
+    "package_name": "hail",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "auth/auth",
+      "batch/batch",
+      "batch/jvm-entryway/src",
+      "hail/hail/src",
+      "hail/hail/ir-gen/src",
+      "hail/hail/utils/src",
+      "hail/python/hail",
+      "hail/python/hailtop"
+    ],
+    "test_dirs": [
+      "auth/test",
+      "batch/test",
+      "ci/test",
+      "monitoring/test",
+      "hail/hail/test",
+      "hail/python/test"
+    ],
+    "tutorial_dirs": [
+      "hail/python/hail/docs/tutorials",
+      "hail/python/hailtop/batch/docs/cookbook"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail",
+  "run_id": "compile_20260304T212031220508Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "hail-api-and-scripting",
+      "hail-build-and-install",
+      "hail-dev-docs",
+      "hail-examples-and-tutorials",
+      "hail-getting-started",
+      "hail-index",
+      "hail-inputs-and-modeling",
+      "hail-parallel-hpc",
+      "hail-simulation-workflows",
+      "hail-test",
+      "hail-theory-and-methods",
+      "hail-troubleshooting"
+    ],
+    "core_skill_ids": [
+      "hail-api-and-scripting",
+      "hail-test",
+      "hail-build-and-install",
+      "hail-getting-started",
+      "hail-dev-docs",
+      "hail-troubleshooting"
+    ],
+    "deferred_gaps": [
+      "Auto-discovery still over-selects some generic source roots in this monorepo; pass 2 should continue using explicit profile roots.",
+      "Batch cookbook docs are explicit tutorial roots and may require manual weighting if topic clustering under-routes them.",
+      "Large API docs volume may require post-generation consolidation to stay high-signal."
+    ],
+    "goal": "Pass 2 builds high-impact docs-first Hail skills; pass 3 audits routing quality, source grounding, and coverage gaps.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "request triage across query, batch, install, and troubleshooting",
+          "clear escalation order: primary docs -> doc_map -> source_map",
+          "routing to tutorials and tests when users ask for runnable examples"
+        ],
+        "reason": "Central router quality determines whether downstream answers stay docs-first and topic-correct.",
+        "skill_id": "hail-index",
+        "source_hints": [
+          "skills/.compile_profile.json",
+          "hail/python/hail/docs",
+          "hail/python/hailtop/batch/docs",
+          "dev-docs"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "install/runtime prerequisites",
+          "minimal first analysis workflow",
+          "tutorial notebook entry points"
+        ],
+        "reason": "Onboarding and first-run setup are frequent entry points and unblock most later requests.",
+        "skill_id": "hail-getting-started",
+        "source_hints": [
+          "hail/python/hail/docs",
+          "hail/python/hail/docs/tutorials",
+          "hail/python/test"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "local developer build paths",
+          "package/component boundaries",
+          "common build failures and fixes"
+        ],
+        "reason": "Hail spans Python and JVM/service components, so build guidance is high-friction and high-impact.",
+        "skill_id": "hail-build-and-install",
+        "source_hints": [
+          "dev-docs",
+          "hail/hail/src",
+          "hail/python/hail",
+          "batch/jvm-entryway/src"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "core query/table/matrixtable usage routes",
+          "hailtop batch API usage and service/local backend patterns",
+          "where to pivot from API docs to source for ambiguous behavior"
+        ],
+        "reason": "Largest docs surface area; most user questions map to Python API and Batch scripting workflows.",
+        "skill_id": "hail-api-and-scripting",
+        "source_hints": [
+          "hail/python/hail/docs",
+          "hail/python/hailtop/batch/docs",
+          "hail/python/hail",
+          "hail/python/hailtop"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "error triage checklist",
+          "auth/cloud/runtime failure patterns",
+          "test-backed sanity checks before deep source dives"
+        ],
+        "reason": "Fast diagnosis patterns reduce repeated support loops for setup/runtime/auth/cloud issues.",
+        "skill_id": "hail-troubleshooting",
+        "source_hints": [
+          "dev-docs/services",
+          "hail/python/hail/docs/change_log.md",
+          "hail/python/test",
+          "hail/hail/test"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "hail-troubleshooting",
+      "hail-test",
+      "hail-simulation-workflows",
+      "hail-getting-started",
+      "hail-examples-and-tutorials",
+      "hail-dev-docs"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-troubleshooting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-test/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-simulation-workflows/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-simulation-workflows/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-examples-and-tutorials/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-examples-and-tutorials/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/hail-hail/skills/hail-dev-docs/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "hail-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "hail-index",
+      "hail-getting-started",
+      "hail-build-and-install",
+      "hail-api-and-scripting",
+      "hail-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 10,
+    "source_inventory": {},
+    "source_links_total": 80,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}
